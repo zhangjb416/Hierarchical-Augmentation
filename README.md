@@ -1,5 +1,6 @@
+### Learning Hierarchical Augmentation Invariance with Expanded Views
 
-This is the code for the paper *Rethinking the Augmentation Module in Contrastive Learning: Learning Hierarchical Augmentation Invariance with Expanded Views*, with SimSiam baseline.
+This is the code for the paper *Rethinking the Augmentation Module in Contrastive Learning: Learning Hierarchical Augmentation Invariance with Expanded Views*.
 
 ### Preparation
 
@@ -12,7 +13,7 @@ Only **multi-gpu**, **DistributedDataParallel** training is supported; single-gp
 
 To do unsupervised pre-training of a ResNet-50 model on ImageNet in an 8-gpu machine, run:
 ```
-python main_simsiam.py \
+python main_train.py \
   -a resnet50 \
   --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 \
   --fix-pred-lr \
