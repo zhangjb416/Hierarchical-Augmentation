@@ -1,6 +1,6 @@
 ### Learning Hierarchical Augmentation Invariance with Expanded Views
 
-This is the code for the paper *Rethinking the Augmentation Module in Contrastive Learning: Learning Hierarchical Augmentation Invariance with Expanded Views*.
+This is a PyTorch implementation for the paper *Rethinking the Augmentation Module in Contrastive Learning: Learning Hierarchical Augmentation Invariance with Expanded Views*. [Simsiam](https://github.com/facebookresearch/simsiam.git) is used as the contrastive learning backbone.
 
 ### Preparation
 
