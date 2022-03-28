@@ -1,4 +1,3 @@
-# Rethinking the Augmentation Module in Contrastive Learning
 
 This is the code for the paper *Rethinking the Augmentation Module in Contrastive Learning: Learning Hierarchical Augmentation Invariance with Expanded Views*, with SimSiam baseline.
 
